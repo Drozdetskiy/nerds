@@ -1,0 +1,28 @@
+.preheader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 14px;
+    align-items: flex-start;
+
+    &__logo img {
+        margin-right: 20px;
+        vertical-align: middle;
+    }
+
+    &__extra-item {
+        display: inline-flex;
+        margin-top: 40px;
+        vertical-align: middle;
+
+        &-text {
+            font-weight: 700;
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+
+        i {
+            margin-right: 10px;
+        }
+    }
+}
+

@@ -1,0 +1,11 @@
+@mixin addIcon($name, $width, $height) {
+    .icon-#{$name} {
+        display: inline-block;
+        width: $width;
+        height: $height;
+        background: url(images/icons/icon-#{$name}.svg);
+        background-size: 100% 100%;
+    }
+}
+
+@include addIcon(basket, 15px, 15px);

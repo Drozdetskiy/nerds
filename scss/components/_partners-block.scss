@@ -1,0 +1,23 @@
+.partners {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+
+    &__image-wrapper {
+        display: inline-flex;
+        width: 100%;
+        align-items: center;
+
+        &:not(:last-child):after {
+            content: '';
+            display: inline-flex;
+            border-left: 2px solid #eeeeee;
+            height: 56px;
+        }
+    }
+
+    &__image {
+        margin: auto;
+        opacity: 30%;
+    }
+}
