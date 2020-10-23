@@ -1,0 +1,20 @@
+.wrapper {
+    margin: auto;
+    max-width: 1440px;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 49px;
+}
+
+
+.header-wrapper {
+    @extend .wrapper
+}
+
+.main-wrapper {
+    @extend .wrapper
+}
+
+.footer-wrapper {
+    @extend .wrapper
+}

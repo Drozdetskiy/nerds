@@ -1,0 +1,33 @@
+.button {
+    outline: none;
+    border: none;
+    display: inline-block;
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 4px;
+    transition: all 0.2s;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 19px 55px 19px;
+    &:hover {
+        background: #adaaee;
+    }
+}
+
+.button__red {
+    @extend .button;
+    background-color: #fb565a;
+}
+
+.button__green {
+    @extend .button;
+    background-color: #00ca74;
+}
+
+.button__yellow {
+    @extend .button;
+    background-color: #efc84a;
+}
